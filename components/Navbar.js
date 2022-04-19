@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* className="logo mx-5 font-mono text-4xl text-pink-400 font-bold" */}
         <div className="nav">
           <ul className='flex space-x-5 font-bold md:text-md'>
-            <li>  <Link href={"/tshirts"}>   Tshurts </Link></li>
+            <li>  <Link href={"/tshirts"}>   Tshirts </Link></li>
             <li><Link href="/hoodies">Hoodies</Link></li>
             <li>  <Link href="/stickers"> Stickers </Link></li>
             <li> <Link href="/mugs"> Mugs  </Link></li>
