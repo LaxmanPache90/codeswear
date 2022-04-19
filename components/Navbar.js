@@ -47,7 +47,10 @@ const Navbar = () => {
              </div>
            </li>
          </ol>
-         <button className="flex mx-auto mt-16 text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
+         <div className="flex">
+         <button className=" mx-auto mt-16 text-white bg-pink-500 border-0 py-1 px-3 focus:outline-none hover:bg-pink-600 rounded text-lg">checkout</button>
+         <button className=" mx-auto mt-16 text-white bg-pink-500 border-0 py-1 px-3 focus:outline-none hover:bg-pink-600 rounded text-lg">clear cart</button>  
+         </div>
       </div>
     </>
   )
